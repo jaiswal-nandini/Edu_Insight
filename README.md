@@ -136,118 +136,18 @@ EduInsight integrates **Google AI Studio (Gemini)** to provide intelligent educa
 
 ---
 
-# 📂 Project Structure
-
-```
-EduInsight/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── services/
-│   ├── contexts/
-│   ├── lib/
-│   └── assets/
-│
-├── server.ts
-├── package.json
-├── docker-compose.yml
-├── kubernetes-deployment.yaml
-└── README.md
-```
-
----
-
-# ⚙️ Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/yourusername/eduinsight.git
-```
-
-```bash
-cd eduinsight
-```
-
----
-
-## Install Dependencies
-
-```bash
-npm install
-```
-
----
-
-## Configure Environment
-
-Create a `.env` file using the `.env.example`.
-
-Example:
-
-```env
-VITE_GEMINI_API_KEY=YOUR_GOOGLE_AI_STUDIO_API_KEY
-```
-
----
-
-## Start Development Server
-
-```bash
-npm run dev
-```
-
----
-
-## Start Backend
-
-```bash
-npm run server
-```
-
----
-
-# 🐳 Docker
-
-Build the project
-
-```bash
-docker compose up --build
-```
-
----
-
-# ☸ Kubernetes
-
-Deploy using
-
-```bash
-kubectl apply -f kubernetes-deployment.yaml
-```
-
----
 
 # 📸 Screenshots
 
-## Dashboard
+## Admin Dashboard
 
-> Add Screenshot Here
-
-```
-/screenshots/dashboard.png
-```
+<img width="1917" height="947" alt="image" src="https://github.com/user-attachments/assets/b2a7cb07-8960-43eb-9f2e-18a9b92109bc" />
 
 ---
 
 ## Student Dashboard
 
-> Add Screenshot Here
-
-```
-/screenshots/student-dashboard.png
-```
+<img width="1917" height="901" alt="image" src="https://github.com/user-attachments/assets/3087dd50-03e7-47cd-b660-b5446d3c0947" />
 
 ---
 
@@ -255,8 +155,8 @@ kubectl apply -f kubernetes-deployment.yaml
 
 > Add Screenshot Here
 
-```
-/screenshots/teacher-dashboard.png
+```<img width="1915" height="942" alt="image" src="https://github.com/user-attachments/assets/785dc76e-dbed-441e-b28e-80b4c64dfb21" />
+
 ```
 
 ---
@@ -265,9 +165,7 @@ kubectl apply -f kubernetes-deployment.yaml
 
 > Add Screenshot Here
 
-```
-/screenshots/ai-insights.png
-```
+<img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/bf7abaef-85e0-4946-97af-9a64925d9131" />
 
 ---
 
@@ -286,40 +184,12 @@ kubectl apply -f kubernetes-deployment.yaml
 
 ---
 
-# 💡 Learning Outcomes
-
-This project helped me strengthen my knowledge of:
-
-- React Development
-- TypeScript
-- REST API Integration
-- AI Integration using Google AI Studio
-- Real-time Communication with Socket.io
-- Docker & Kubernetes
-- Authentication & Authorization
-- Responsive UI Design
-- State Management
-- Software Architecture
-
----
-
 # 👨‍💻 Author
 
 **Nandini**
 
-AI Developer • Full Stack Developer • Data & Product Enthusiast
-
 ---
 
-# 📬 Contact
-
-GitHub: https://github.com/yourusername
-
-LinkedIn: https://linkedin.com/in/yourprofile
-
-Email: your@email.com
-
----
 
 # ⭐ If you like this project
 
