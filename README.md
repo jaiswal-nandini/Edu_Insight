@@ -164,7 +164,8 @@ EduInsight integrates **Google AI Studio (Gemini)** to provide intelligent educa
 
 # 📊 EduInsight
 
-[![Live Demo](https://eduinsight-225984896080.asia-southeast1.run.app)
+## Live Demo : 
+<https://eduinsight-225984896080.asia-southeast1.run.app>
 
 # 🎯 Future Improvements
 
