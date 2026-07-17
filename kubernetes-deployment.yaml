@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aura-academic-platform
+  labels:
+    app: aura-academic-platform
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: aura-academic-platform
+  template:
+    metadata:
+      labels:
+        app: aura-academic-platform
+    spec:
+      containers:
+      - name: platform-app
+        image: aura-academic-platform:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
+        env:
+        - name: NODE_ENV
+          value: "production"
+        - name: PORT
+          value: "3000"
+        - name: GEMINI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: gemini-secrets
+              key: api-key
+        resources:
+          limits:
+            cpu: "1"
+            memory: "1Gi"
+          requests:
+            cpu: "250m"
+            memory: "512Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: aura-academic-service
+spec:
+  selector:
+    app: aura-academic-platform
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: ClusterIP

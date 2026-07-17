@@ -1,0 +1,6 @@
+{
+  "name": "EduInsight",
+  "description": "Transforming Academic Performance Through AI. An AI-powered academic analytics platform featuring predictive risk modeling, automatic alerts, customized student study plans, and interactive analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

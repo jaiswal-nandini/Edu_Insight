@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  academic-platform:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: aura-academic-platform:latest
+    container_name: aura_platform_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    volumes:
+      - ./academic_database.json:/app/academic_database.json
+    networks:
+      - platform-network
+
+networks:
+  platform-network:
+    driver: bridge
