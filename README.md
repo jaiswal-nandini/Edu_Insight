@@ -155,17 +155,14 @@ EduInsight integrates **Google AI Studio (Gemini)** to provide intelligent educa
 
 > Add Screenshot Here
 
-```<img width="1915" height="942" alt="image" src="https://github.com/user-attachments/assets/785dc76e-dbed-441e-b28e-80b4c64dfb21" />
+<img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/bf7abaef-85e0-4946-97af-9a64925d9131" />
 
-```
-
----
 
 ## AI Insights
 
 > Add Screenshot Here
 
-<img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/bf7abaef-85e0-4946-97af-9a64925d9131" />
+<img width="1600" height="878" alt="image" src="https://github.com/user-attachments/assets/1a5a8b7e-1126-45f3-b44b-f4f279630baa" />
 
 ---
 
